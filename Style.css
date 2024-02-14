@@ -1,0 +1,15 @@
+.Titre{
+    text-align: center;
+}
+.PDP{
+    background-color: black;
+    color: white;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    text-align: center;
+    background-color: darkblue;
+    color:white;
+    padding: 10px;
+}
