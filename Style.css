@@ -1,5 +1,9 @@
 .Titre{
     text-align: center;
+    font-family:monospace;
+    background-color: darkblue;
+    color: white;
+    margin-block: 0;
 }
 .PDP{
     background-color: black;
@@ -13,6 +17,19 @@
     color:white;
     padding: 10px;
 }
+.Aframe{
+    display:grid;
+    grid-template-rows: 50x, 600px ;  
+    background-color: skyblue;
+  }
 .scene{
-    padding: 100px;
+    background-color: green;
+    width: 500px;
+    height: 500px;
+}
+.contenu{
+    background-color: azure;
+}
+.body{
+    background-color: skyblue;
 }
