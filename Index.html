@@ -7,24 +7,27 @@
     <link rel="stylesheet" href="Style.css">
     <title>UA1</title>
 </head>
-<body>
 <h1 class="Titre">Aframe</h1>
+<body>
 <div class="menu">
     <div>Option 1</div>
     <div>Option 2</div>
     <div>Option 3</div>
 </div>
-<div class="Aframe">
-    <div class="contenu">Cette scène contien un cube rouge, un cylindre bleu et une plane verte. L'éclairage est une directional light.</div>
-    <div class="scene"><a-scene embedded>
+<div class="contenu">
+    <div class="Aframe">
+     <div class="Text">Cette scène contien un cube rouge, un cylindre bleu et une plane verte. L'éclairage est une directional light.</div>
+        <div class="scene"><a-scene embedded>
             <a-plane position="0 0 0" rotation="-90 0 0" width="4" height="4"color="green"></a-plane>
             <a-box position="1 0.5 0" rotation="0 45 0" color="red"></a-box>
             <a-cylinder position="-1 0.5 -1" rotation="0 0 0" color="blue"></a-cylinder>
             <a-entity light="type: directional; color:white; intensity: 1" position="-1 1 0"></a-entity>
-        </a-scene>
+            <a-sky color= "Skyblue"></a-sky>
+            </a-scene>
+        </div>
+        </div>
     </div>
 </div>
-</div>
-<h3 class="PDP">Pied de page</h3>
+<h3 class="PDP">Pour plus d'info consulter le site d'Aframe</h3>
 </body>
 </html>
