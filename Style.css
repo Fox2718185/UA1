@@ -5,12 +5,6 @@
     color: white;
     margin-block: 0;
 }
-.PDP{
-    background-color: black;
-    color: white;
-    bottom: 0;
-    margin-block: 0;
-}
 .menu{
     display: grid;
     grid-template-columns: repeat(3, 500px);
@@ -32,7 +26,19 @@
 }
 .contenu{
     background-color: azure;
+    padding: 5px;
 }
 .body{
     background-color: skyblue;
+}
+.PDP{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family:monospace;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
 }
